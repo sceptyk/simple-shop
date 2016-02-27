@@ -1,0 +1,43 @@
+Error: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'orderid' cannot be null
+Error: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'orderid' cannot be null
+Error: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'orderid' cannot be null
+Error: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'orderid' cannot be null
+Error: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'orderid' cannot be null
+Error: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'orderid' cannot be null
+Error: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'orderid' cannot be null
+Error: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'orderid' cannot be null
+Error: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'orderid' cannot be null
+Error: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'orderid' cannot be null
+Error: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'orderid' cannot be null
+Error: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'orderid' cannot be null
+Error: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'orderid' cannot be null
+Error: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'orderid' cannot be null
+Error in queryDb: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'RETURNING id' at line 1
+Error in queryDb: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'RETURNING id' at line 1
+Error in queryDb: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'RETURNING id' at line 1
+Error in query[Db]: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'orderid' cannot be null
+Error in query[Db]: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'orderid' cannot be null
+Error in query[Db]: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'orderid' cannot be null
+Error in query[Db]: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'orderid' cannot be null
+Error in query[Db]: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'orderid' cannot be null
+Error in [SELECT amount FROM shop_orders WHERE hash = ? LIMIT 1]: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+2015-06-02 18:48:05 | Error in [SELECT * FROM shop_products p  WHERE (p.category = ? )   ORDER BY p.highlight DESC  LIMIT ?,?  ]: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+2015-06-02 18:50:35 | Error in [SELECT * FROM shop_products p  WHERE (p.category = ? )   ORDER BY p.highlight DESC  LIMIT ?,?  ]: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+2015-06-02 18:52:05 | Error in [SELECT * FROM shop_products p  WHERE (p.category = ? )   ORDER BY p.highlight DESC  LIMIT ?,?  ]: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+2015-06-02 18:52:08 | Error in [SELECT * FROM shop_products p  WHERE (p.category = ? )   ORDER BY p.highlight DESC  LIMIT ?,?  ]: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+2015-06-02 18:52:11 | Error in [SELECT * FROM shop_products p  WHERE (p.category = ? )   ORDER BY p.highlight DESC  LIMIT ?,?  ]: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+2015-06-02 18:52:19 | Error in [SELECT * FROM shop_products p  WHERE (p.category = ? )   ORDER BY p.highlight DESC  LIMIT ?,?  ]: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+2015-06-02 18:53:49 | Error in [SELECT * FROM shop_products p  WHERE (p.category = ? )   ORDER BY p.highlight DESC  LIMIT ?,?  ]: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+2015-06-02 18:53:55 | Error in [SELECT * FROM shop_products p  WHERE (p.category = ?  OR p.category = ?)   ORDER BY p.highlight DESC  LIMIT ?,?  ]: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+2015-06-02 18:54:00 | Error in [SELECT * FROM shop_products p  WHERE (p.category = ? )   ORDER BY p.highlight DESC  LIMIT ?,?  ]: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+2015-06-02 18:55:05 | Error in [SELECT * FROM shop_products p  WHERE (p.category = ? )   ORDER BY p.highlight DESC  LIMIT ?,?  ]: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+2015-06-02 18:55:14 | Error in [SELECT * FROM shop_products p  WHERE (p.category = ?  OR p.category = ?)   ORDER BY p.highlight DESC  LIMIT ?,?  ]: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+2015-06-02 18:55:51 | Error in [SELECT * FROM shop_products p  WHERE (p.category = ? )   ORDER BY p.highlight DESC  LIMIT ?,?  ]: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+2015-06-03 18:34:15 | Error in [SELECT id FROM shop_clients c INNER JOIN shop_bclientorder b ON b.clientid = c.id INNER JOIN shop_orders o ON b.orderid = o.id WHERE o.hash = ?]: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in field list is ambiguous
+2015-06-03 18:37:40 | Error in [SELECT id FROM shop_clients c INNER JOIN shop_bclientorder b ON b.clientid = c.id INNER JOIN shop_orders o ON b.orderid = o.id WHERE o.hash = ?]: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in field list is ambiguous
+2015-06-04 11:46:14 | Error in [SELECT orders.id, users.name, users.email, orders.state, IF(purch.paypalid IS NULL, 0, purch.paypalid) AS paypalid FROM shop_orders orders INNER JOIN shop_users users ON users.id = orders.user LEFT OUTER JOIN shop_purchases purch ON purch.orderid = orders.id]: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'orders.user' in 'on clause'
+2015-06-04 21:22:51 | Error in [SELECT orders.id, users.name, users.email, orders.state, IF(purch.paypalid IS NULL, 0, purch.paypalid) AS paypalid FROM shop_orders orders INNER JOIN shop_users users ON users.id = orders.user LEFT OUTER JOIN shop_purchases purch ON purch.orderid = orders.id]: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'orders.user' in 'on clause'
+2015-06-05 09:44:13 | Error in [SELECT orders.id, users.name, users.email, orders.state, IF(purch.paypalid IS NULL, 0, purch.paypalid) AS paypalid FROM shop_orders orders INNER JOIN shop_users users ON users.id = orders.user LEFT OUTER JOIN shop_purchases purch ON purch.orderid = orders.id]: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'orders.user' in 'on clause'
+2015-06-05 10:21:31 | Error in [SELECT o.id, c.name, c.email, o.state, i.name AS item, IF(p.paypalid IS NULL, 0, p.paypalid) AS paypalid FROM shop_orders o INNER JOIN shop_bclientorder bco ON bco.orderid = o.id INNER JOIN shop_clients c ON c.id = bco.clientid LEFT OUTER JOIN shop_purchases p ON p.orderid = o.id]: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'i.name' in 'field list'
+2015-06-05 10:21:56 | Error in [SELECT o.id, c.name, c.email, o.state, i.name AS item, IF(p.paypalid IS NULL, 0, p.paypalid) AS paypalid FROM shop_orders o INNER JOIN shop_bclientorder bco ON bco.orderid = o.id INNER JOIN shop_clients c ON c.id = bco.clientid LEFT OUTER JOIN shop_purchases p ON p.orderid = o.id]: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'i.name' in 'field list'
+2015-06-05 11:39:57 | Error in [SELECT o.id, c.name, c.email, o.state, FROM shop_orders o INNER JOIN shop_bclientorder bco ON bco.orderid = o.id INNER JOIN shop_clients c ON c.id = bco.clientid ]: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM shop_orders o INNER JOIN shop_bclientorder bco ON bco.orderid = o.id INNER ' at line 1

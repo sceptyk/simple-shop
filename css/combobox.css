@@ -1,0 +1,33 @@
+div.autocomplete > input.autocomplete{
+    position: relative;
+    width: 90% !important;
+    padding-left: 10% !important;
+    z-index: 1;
+}
+
+div.autocomplete > div.select{
+    position: absolute;
+    display: none;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    background-color: #c8c8ed;
+    height: auto !important;
+    margin-top: 25px;
+    width: 100% !important;
+    border-top: 1px black solid;
+}
+
+div.option{
+	width: 90% !important;
+    padding: 0 5% !important;
+    cursor: pointer;
+}
+
+div.option:hover{
+    background-color: #f8eaf4;
+}
+
+div.option.highlight{
+    background-color: #f8eaf4;
+}

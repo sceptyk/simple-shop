@@ -1,0 +1,618 @@
+html, body{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+div#wrapper{
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+
+div#shop-content{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+
+/*TOP BAR*/
+div#shop-header{
+    width: 94%;
+    height: 50px;
+    height: 2vh;
+    min-height: 30px;
+    position: relative;
+    top: 0;
+    padding: 0.5% 3% 0.5%;
+    background-color: #183848;
+    margin-bottom: 10px;
+    z-index: 1;
+}
+
+div#shop-filter-panel{
+  	width: auto;
+  	height: 100%;
+    position: relative;
+   
+  	background-color: inherit;
+}
+
+div#shop-filter-panel .top-bar{
+	position: relative;
+	width: 100%;
+	
+	height: 100%;
+	margin-bottom: 0.5%;
+}
+
+div#shop-filter-panel div#open-filter-panel{
+   	display: inline-block;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    padding: 0.25% 0.5%;
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto;
+    position: relative;
+	border: none;
+    float: left;
+}
+
+div#shop-filter-panel .panel-button{
+	display: inline-block;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    padding: 1% 2%;
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto;
+    position: relative;
+	border: none;
+}
+
+div#shop-filter-panel div#filter-panel-content{
+    z-index: 100;
+    background-color: inherit;
+    text-align: left;
+    /* padding: 0; */
+    border-top: 5px black solid;
+    width: 90%;
+    float: left;
+    padding: 0 5% 5%;
+    position: absolute;
+}
+
+div#shop-filter-panel div#filter-panel-content h2{
+    font-size: 2em;
+
+    color: white;
+    text-align: inherit;
+}
+
+div#shop-filter-panel div#filter-panel-content .panel-group{
+    text-align: inherit;
+
+    float: left;
+    width: 25%;
+}
+
+div#shop-filter-panel div#filter-panel-content h3{
+	
+}
+
+div#shop-filter-panel div#filter-panel-content .panel-input{
+    height: 25px;
+
+    width: 50%;
+    border: none;
+    margin: 1px;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 5px;
+    color: white;
+}
+
+div#shop-filter-panel div#filter-panel-content .number-input{
+	max-width: 50px;
+}
+
+div#shop-filter-panel div#filter-panel-content .category{
+    display: inline-block;
+
+    background-color: rgba(0,0,0,0.6);
+    padding: 0.5% 1%;
+    margin: 1%;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+div#shop-filter-panel div#filter-panel-content .category.highlight{
+    background-color: rgba(255,255,255,0.6);
+}
+
+div#shop-filter-panel div#filter-panel-content .panel-label{
+	
+}
+
+.shop-header{
+	display: inline-block;
+	color: white;
+}
+
+input#shop-search{
+    height: 100%;
+	
+    border: none;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 100%;
+    border-radius: 5px;
+}
+
+div#trolley{
+	width: 2%;
+	height: 100%;
+	position: relative;
+	float:right;
+	
+}
+
+div#trolley img{
+	width: auto;
+	height: 100%;
+	position: absolute;
+	bottom: 0;
+	cursor: pointer;
+}
+
+div#shop-header div#trolley-content{
+	position: absolute;
+	top: 100%;
+	right: 0;
+	z-index: 100;
+	width: 35%;
+	background-color: #0b1a22;
+	padding: 0.5% 0;
+}
+
+div#shop-header div#trolley-content #trolley-checkout{
+    display: inline-block;
+    background-color: rgba(255,255,255,0.8);
+    padding: 0.5% 2%;
+    margin-bottom: 1%;
+    border-radius: 5px;
+    font-size: 1.25em;
+    cursor: pointer;
+}
+
+div#shop-header div#trolley-content #trolley-amount{
+    display: inline-block;
+    background-color: rgba(255,255,255,0.8);
+    padding: 0.5% 2%;
+    margin-bottom: 1%;
+    border-radius: 5px;
+    font-size: 1.25em;
+}
+
+div.trolley-item{
+    height: 50px;	
+    width: 80%;
+    text-align: left;
+    padding: 1% 10%;
+    background-color: rgba(255,255,255,0.2);
+    margin-bottom: 0.5%;
+    color: white;
+    position: relative;
+}
+
+div.trolley-item:first-of-type{
+	border-top: 1px white solid;
+}
+
+div.trolley-item .photo-thumb{
+    height: 100%;
+	
+    width: 20%;
+    display: inline-block;
+}
+
+div.trolley-item .photo-thumb img{
+    height: 100%;
+	
+    width: auto;
+}
+
+div.trolley-item .title{
+    display: inline-block;
+	
+    font-size: 1.5em;
+    padding: 0 2%;
+}
+
+div.trolley-item .price{
+    display: inline-block;
+	
+}
+
+div.trolley-item .close{
+    position: absolute;
+	
+    top: 5px;
+    right: 1%;
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 15px;
+    border: 1px white double;
+    cursor: pointer;
+}
+
+/*CONTENT*/
+div#shop-view{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: auto;
+}
+
+div.shop-column{
+    width: 450px;
+    min-width: 200px;
+    height: auto;
+    overflow: inherit;
+    float: left;
+}
+
+div.shop-item{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 10px;
+    background-color: black;
+}
+
+div.shop-item.shop-item-highlight{
+    border: 5px black solid;
+	
+    left: -5px;
+}
+
+div.shop-item img{
+    width: inherit;
+    height: inherit;
+    position: relative;
+}
+
+div.shop-item div.shop-item-info{
+    width: inherit;
+    height: auto;
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    text-align: left;
+}
+
+div.shop-item span.shop-item-title{
+    padding: 5px 10px;
+    background: rgba(0,0,0,0.6);
+    margin: 0px 10px;
+    font-size: 300%;
+}
+
+div.shop-item span.shop-item-price{
+    background-color: rgba(0,0,0,0.6);
+	padding: 2px 0px 2px 20px;
+	background-image: url('../images/gui/pricetag.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+div.shop-item span.shop-item-discount{
+	font-size: 1.5em;
+	background-color: rgba(255,255,255,0.6);
+	color: black
+}
+
+div.shop-item span.shop-item-oldprice{
+	background-color: rgba(255,0,0,0.6);
+	padding: 2px 2px;
+	margin: 3px;
+}
+
+div.shop-item span.shop-item-description{
+    display: block;
+    margin: 15px 0px 0px;
+    padding: 0px 15px 5px;
+    background-color: rgba(0,0,0,0.6);
+}
+
+div.shop-item span.shop-item-button{
+    position: absolute;
+    top: 10px;
+    padding: 1.5% 1.25% 1.5% 5%;
+    padding-left: 25px;
+    background-color: rgba(0,0,0,0.6);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px;
+    color: white;
+    /* border-left: 2px white solid; */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+div.shop-item span.shop-item-buy{
+	right: 10px;
+	background-image: url('../images/gui/itemadd.png');
+}
+
+div.shop-item span.shop-item-enlarge{
+	left: 10px;
+	background-image: url('../images/gui/itemdetails.png');
+}
+
+/*DETAIL WINDOW*/
+
+div.frame{
+	width: 100%;
+	height: 100%;
+	position:fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.8);
+	z-index: 100;
+	overflow-y: scroll;
+}
+
+div.frame-content{
+	position: relative;
+	
+	width: 60%;
+	height:  auto;
+	margin: 5% auto 2%;
+	padding: 1% 5%;
+	background-color: rgba(255,255,255,0.8);
+}
+
+div.detail-container{
+	
+}
+
+div.frame div.photo-container{
+    width: 50%;
+    height: auto;
+    position: relative;
+    float: left;
+}
+
+div.frame div.photo-big{
+    width: 100%;
+    height: auto;
+}
+
+div.frame div.photo-big img{
+    width: 100%;
+    height: auto;
+}
+
+div.frame div.photo-preview{
+    position: absolute;
+	
+    bottom: 0px;
+    height: 20%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+div.frame div.photo-preview-wrapper{
+    width: auto;
+
+    height: 100%;
+}
+
+div.frame div.photo-preview-wrapper img{
+    height: 100%;
+	
+    width: auto;
+    display: inline-block;
+}
+
+div.frame div.photo-preview-wrapper img.marked{
+    border: 1px white solid;
+}
+
+div.frame .text-container{
+	width: 40%;
+	float: left;
+	padding: 2% 5%;
+}
+
+div.frame .text-container .title{
+    font-size: 3.5em;
+
+}
+
+div.frame .text-container .price{
+    padding: 5%;
+
+    font-size: 1.5em;
+}
+
+div.frame .text-container .description{
+
+}
+
+div.frame .text-container .buy{
+    padding: 0 2%;
+
+    margin: 5% 0;
+    background-color: white;
+    display: inline-block;
+    cursor: pointer;
+}
+
+div.frame div.user-details{
+	
+}
+
+div.frame h2{
+    font-size: 2em;
+	text-align: center;
+}
+
+div.frame div.user-details h2{
+	
+}
+
+div.frame div.user-details div.form{
+    width: 100%;
+	
+}
+
+div.frame div.user-details div.form div.form-field{
+    width: 100%;
+	
+    height: auto;
+    margin-bottom: 2%;
+}
+
+div.frame div.user-details div.form .note{
+    text-align: justify;
+	
+    margin: 0 0 5px 50%;
+    font-size: 0.9em;
+    width: 46%;
+    background-color: rgba(200,0,0,0.6);
+    padding: 2%;
+}
+
+div.frame div.user-details div.form label{
+    width: 40%;
+	
+    padding-right: 10%;
+    text-align: right;
+    display: inline-block;
+    font-size: 1.25em;
+}
+
+div.frame div.user-details div.form input{
+    width: 50%;
+    padding: 0;
+    margin: 0 0 5px;
+    border: none;
+    height: auto;
+    font-size: 1.25em;
+}
+
+div.frame button{
+    padding: 1% 3%;
+    background-color: rgba(0,0,0,0.8);
+    border: none;
+    color: white;
+    font-size: 1.1em;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+div.frame div.user-details button{
+    margin-left: 50%;
+}
+
+div.frame div#confirm{
+	
+}
+
+div.frame div#confirm h2{
+	
+}
+
+div.frame div#confirm .order{
+	
+}
+
+div.frame div#confirm .column{
+    width: 50%;
+	
+    float: left;
+    margin-bottom: 2%;
+}
+
+div.frame div#confirm h3{
+    font-size: 1.25em;
+	
+}
+
+div.frame div#confirm .order-list{
+	
+}
+
+div.frame div#confirm .order-details{
+	
+}
+
+div.frame div#confirm .order-item{
+    margin-bottom: 5px;
+	
+}
+
+div.frame div#confirm .item-detail{
+    display: inline-block;
+	
+    padding-right: 5%;
+}
+
+div.frame div#confirm .client{
+	
+}
+
+div.frame div#confirm button{
+	
+}
+
+div.frame div.form div.header{
+	
+}
+
+div.frame div.form div.fields{
+	
+}
+
+div.frame div.form div.fields div.field{
+	
+}
+
+div.frame div.form div.fields label{
+	
+}
+
+div.frame div.form div.fields input{
+	
+}
+
+div.frame div.form div.buttons{
+	
+}
+
+div.frame div.form div.buttons button{
+	
+}
+
+/*GLOBAL*/
+
+.clear{
+	clear: both;
+}
+
+.hidden{
+	display: none;
+}

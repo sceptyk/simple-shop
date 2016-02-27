@@ -1,0 +1,131 @@
+{"shop":
+	{
+		"name" : "People shop",
+		"type" : "shop",
+		"children" : [{
+			"name" : "Category 1",
+			"type" : "category",
+			"children" : [
+				{
+					"name" : "Photo",
+					"type" : "item",
+					"description" : "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+					"images" : [
+						"1/indians-642075_640.jpg"
+					],
+					"price" : 34.99
+				}, 
+				{
+					"name" : "Photo",
+					"type" : "item",
+					"description" : "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+					"images" : [
+						"10/man-568389_640.jpg"
+					],
+					"price" : 34.99
+				}
+			]
+		},
+		{
+			"name" : "Category 2",
+			"type" : "category",
+			"children" : [
+				{
+					"name" : "Photo",
+					"type" : "item",
+					"description" : "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+					"images" : [
+						"11/sunset-538286_640.jpg"
+					],
+					"price" : 34.99
+				}, 
+				{
+					"name" : "Photo",
+					"type" : "item",
+					"description" : "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+					"images" : [
+						"9/watch-tv-301528_640.jpg"
+					],
+					"price" : 34.99
+				},
+				{
+					"name" : "Photo",
+					"type" : "item",
+					"description" : "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+					"images" : [
+						"12/tango-108483_640.jpg"
+					],
+					"price" : 34.99
+				}, 
+				{
+					"name" : "Photo",
+					"type" : "item",
+					"description" : "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+					"images" : [
+						"2/indians-642055_640.jpg"
+					],
+					"price" : 34.99
+				}
+			]
+		}, {
+			"name" : "Category 3",
+			"type" : "category",
+			"children" : [
+				{
+					"name" : "Photo",
+					"type" : "item",
+					"description" : "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+					"images" : [
+						"3/human-690107_640.jpg"
+					],
+					"price" : 34.99
+				}, 
+				{
+					"name" : "Photo",
+					"type" : "item",
+					"description" : "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+					"images" : [
+						"4/silhouette-691522_640.jpg"
+					],
+					"price" : 34.99
+				},
+				{
+					"name" : "Photo",
+					"type" : "item",
+					"description" : "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+					"images" : [
+						"5/female-204274_640.jpg"
+					],
+					"price" : 34.99
+				}, 
+				{
+					"name" : "Photo",
+					"type" : "item",
+					"description" : "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+					"images" : [
+						"6/shadow-198682_640.jpg"
+					],
+					"price" : 34.99
+				},
+				{
+					"name" : "Photo",
+					"type" : "item",
+					"description" : "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+					"images" : [
+						"7/american-soldier-381847_640.jpg"
+					],
+					"price" : 34.99
+				}, 
+				{
+					"name" : "Photo",
+					"type" : "item",
+					"description" : "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+					"images" : [
+						"8/monument-140320_640.jpg"
+					],
+					"price" : 34.99
+				}
+			]
+		}]
+	}
+}

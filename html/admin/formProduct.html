@@ -1,0 +1,78 @@
+<html>
+
+	<div id="form-add-new">
+		<form>
+			<div class="row">
+				<span>Title: </span>
+				<input type="text" id="title">
+			</div>
+			<div class="row">
+				<span>Price: </span>
+				<input type="text" id="price" >
+			</div>
+			<!-- <input type="text" id="amount"> -->
+			<div class="row">
+				<span>Description: </span>
+				<textarea id="description"></textarea>
+			</div>
+			<div class="row">
+				<span>Category: </span>
+				<div class="autocomplete">
+					<input id="category" class="autocomplete" type="text">
+					<div class="select" id="category-hints" class="autocomplete"></div>
+				</div>
+			</div>
+			<div class="row">
+				<span>Digital product: </span>
+				<input type="checkbox" id="digital" >
+			</div>
+			<div class="row">
+				<!-- TODO -->
+				
+				quantity,
+				price per quantity
+				show price, max or min
+				
+				
+				<!-- TODO -->
+			</div>
+			<div id="digital-product" class="row hidden">
+				<span>Upload product: </span>
+				<div id="file-product-container" class="hidden"></div>
+				<button id="invoke-file-product">
+					Your computer
+				</button>
+				<span id="file-product-note note"></span>
+			</div>
+			<div class="row">
+				<span>Choose photos</span>
+				<button id="invoke-file">
+					Your computer
+				</button>
+				<div id="added-photos">
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="row">
+				<span>Add tags: </span>
+				<input id="add-tag" type="text" id="tag" placeholder="New tag(enter)">
+				<div id="added-tags">
+					<div class="clear"></div>
+				</div>
+			</div>
+			<div class="row">
+				<button id="submit">
+					Submit
+				</button>
+			</div>
+
+			<div class="clear"></div>
+			<input id="load-file" type="file" class="hidden" multiple="multiple">
+			<input id="load-file-product" type="file" class="hidden">
+		<form>
+	</div>
+
+	<div id="loader" class="row">
+
+	</div>
+</html>

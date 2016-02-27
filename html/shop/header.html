@@ -1,0 +1,69 @@
+<html>
+	<div id="shop-header">
+		<div id="shop-filter-panel">
+			<div class="top-bar">
+				<div id="open-filter-panel" class="panel-button">
+					Filters
+				</div>
+				<div id="trolley" class="shop-header">
+					<img src="images/gui/trolley.png" />
+				</div>
+			</div>
+			<div id="filter-panel-content" class="hidden">
+				<h2>Custom filters: </h2>
+				<div class="panel-group">
+					<h3>Search</h3>
+					<div class="search">
+						<input id="search" type="text" class="panel-input">
+						<button id="search" class="panel-button">
+							Find
+						</button>
+					</div>
+				</div>
+				<div class="panel-group">
+					<h3>Categories</h3>
+					<div class="categories"></div>
+				</div>
+				<div class="panel-group">
+					<h3>Price</h3>
+					<div class="price">
+						<label class="panel-label">Min: </label>
+						<input type="number" id="minprice" class="panel-input number-input">
+						<label class="panel-label">Max: </label>
+						<input type="number" id="maxprice" class="panel-input number-input">
+						<button id="price" class="panel-button">
+							Find
+						</button>
+					</div>
+				</div>
+				<div class="panel-group">
+					<h3>Sort</h3>
+					<div class="sort">
+						<button class="panel-button sort-button" id="sort-default">
+							Default
+						</button>
+						<button class="panel-button sort-button" id="sort-name">
+							Name
+						</button>
+						<button class="panel-button sort-button" id="sort-date">
+							Date
+						</button>
+						<button class="panel-button sort-button" id="sort-price">
+							Price
+						</button>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div id="trolley-content" class="hidden">
+			<div>
+				<div id="trolley-checkout">
+					Checkout
+				</div>
+				<div id="trolley-amount"></div>
+			</div>
+		</div>
+	</div>
+</html>
